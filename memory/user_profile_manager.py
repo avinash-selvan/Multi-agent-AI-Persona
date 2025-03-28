@@ -1,6 +1,7 @@
 import json
 from typing import Dict, Any
 from pathlib import Path
+from datetime import datetime
 
 class UserProfileManager:
     def __init__(self, profile_path: str = 'user_profile.json'):

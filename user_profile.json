@@ -1,0 +1,21 @@
+{
+  "name": "Alex",
+  "age": 30,
+  "profession": "Sales Executive",
+  "goals": [
+    "Become a top closer",
+    "Retire parents in 5 years",
+    "Build unstoppable confidence"
+  ],
+  "values": [
+    "Discipline",
+    "Freedom",
+    "Family",
+    "Legacy"
+  ],
+  "identity": [
+    "Resilient",
+    "Relentless",
+    "Faith-driven"
+  ]
+}

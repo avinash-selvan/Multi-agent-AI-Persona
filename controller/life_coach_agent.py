@@ -1,9 +1,8 @@
 from typing import List, Dict, Any
-from agents.warrior_agent import WarriorAgent
-from agents.monk_agent import MonkAgent
-from agents.millionaire_agent import MillionaireAgent
-from memory.user_profile_manager import UserProfileManager
-from memory.log_manager import LogManager
+from agents import WarriorAgent, MonkAgent, MillionaireAgent
+from langchain_ollama import OllamaLLM
+from memory import UserProfileManager, LogManager
+from datetime import datetime
 
 class LifeCoachAgent:
     def __init__(self):
@@ -78,5 +77,5 @@ class LifeCoachAgent:
         Create a holistic, actionable summary.
         """
         # Use an LLM to generate summary (placeholder)
-        summary_generator = OpenAI(temperature=0.5)
-        return summary_generator(summary_prompt)
+        summary_generator = OllamaLLM(model='mistral',temperature=0.5)
+        return summary_generator.invoke(summary_prompt)
