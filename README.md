@@ -50,10 +50,9 @@ User Input → Life Coach → Persona Chain → Summary
 ## 🛠️ Tech Stack
 
 - **Python**
-- **OpenAI GPT-4 API**
+- **Ollama - Mistral**
 - **LangChain**
 - **JSON-based memory**
-- *(Optional)* Streamlit for simple UI
 
 ---
 
