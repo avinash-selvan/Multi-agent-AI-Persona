@@ -104,4 +104,4 @@ export OLLAMA_MODEL="mistral"
 
 Inspired by the idea of turning inner dialogue into an intelligent, guided growth experience using AI.
 
-Built with 💻 and 🧘 by [Your Name].
+Built with 💻 and 🧘 by Avinash.
