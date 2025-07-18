@@ -69,11 +69,10 @@ User Input → Life Coach → Persona Chain → Summary
    pip install -r requirements.txt
    ```
 
-3. **Add your OpenAI API Key**
-   Set it as an environment variable:
-   ```bash
-   export OPENAI_API_KEY="your-key-here"
-   ```
+3. # Set environment variable to use local Ollama with Mistral
+```bash
+export OLLAMA_MODEL="mistral"
+```
 
 4. **Run the app**
    ```bash
